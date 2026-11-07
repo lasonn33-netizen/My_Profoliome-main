@@ -77,7 +77,7 @@ const Contact = ({ t, isDarkMode, lang }) => {
           
           {/* Telegram Card */}
           <a
-            href="https://t.me/sokcheamoa" 
+            href="https://t.me/sonn_sokla" 
             target="_blank" 
             rel="noopener noreferrer"
             className={`p-5 rounded-2xl border flex flex-col items-center justify-center cursor-pointer select-none transition-all duration-200 hover:-translate-y-1 hover:border-[#229ED9] hover:shadow-lg hover:shadow-[#229ED9]/15 active:scale-95 ${
@@ -92,7 +92,7 @@ const Contact = ({ t, isDarkMode, lang }) => {
             </div>
             <p className="text-xs text-zinc-400 mb-0.5">Telegram</p>
             <p className="text-sm font-semibold text-[#229ED9] flex items-center gap-1">
-              @sokcheamoa <span>↗</span>
+              @sonn_sokla <span>↗</span>
             </p>
           </a>
 

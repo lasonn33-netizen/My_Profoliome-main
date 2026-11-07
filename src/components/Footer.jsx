@@ -8,7 +8,7 @@ const Footer = ({ t, isDarkMode, lang }) => {
   const socialLinks = [
     {
       name: 'Telegram',
-      url: 'https://t.me/sokcheamoa',
+      url: 'https://t.me/sonn_sokla',
       // SVG ពណ៌ខៀវផ្ទៃមេឃផ្លូវការរបស់ Telegram
       iconUrl: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/telegram.svg',
       badgeClass: 'text-[#229ED9] bg-[#229ED9]/10 border-[#229ED9]/30 hover:bg-[#229ED9] hover:text-white',
