@@ -16,8 +16,8 @@ const Contact = ({ t, isDarkMode, lang }) => {
     e.preventDefault();
     setLoading(true);
 
-    const BOT_TOKEN = '8238427766:AAHosmOVxtdASC0l9AOdJT25upMzPa7GLKA';
-    const CHAT_ID = '1302983925';
+    const BOT_TOKEN = '9014548061:AAHdQFE0D6jUyaIDicmyH9eWgasyN-YgQ-0';
+    const CHAT_ID = '7581707294';
 
     const text = `📬 New message from Portfolio!\n\n👤 Name: ${formData.name}\n📧 Email: ${formData.email}\n💬 Message: ${formData.message}`;
 
@@ -77,7 +77,7 @@ const Contact = ({ t, isDarkMode, lang }) => {
           
           {/* Telegram Card */}
           <a
-            href="https://t.me/sonn_sokla" 
+            href="https://t.me/FollowMe_168bot" 
             target="_blank" 
             rel="noopener noreferrer"
             className={`p-5 rounded-2xl border flex flex-col items-center justify-center cursor-pointer select-none transition-all duration-200 hover:-translate-y-1 hover:border-[#229ED9] hover:shadow-lg hover:shadow-[#229ED9]/15 active:scale-95 ${
@@ -92,7 +92,7 @@ const Contact = ({ t, isDarkMode, lang }) => {
             </div>
             <p className="text-xs text-zinc-400 mb-0.5">Telegram</p>
             <p className="text-sm font-semibold text-[#229ED9] flex items-center gap-1">
-              @sonn_sokla <span>↗</span>
+              @FollowMe_168bot <span>↗</span>
             </p>
           </a>
 
