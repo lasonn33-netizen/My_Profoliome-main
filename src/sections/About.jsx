@@ -1,5 +1,4 @@
 import React from 'react';
-import aboutImage from '../assets/images/imageabout.png';
 
 const About = ({ t, isDarkMode, lang }) => {
   const currentFontClass =
@@ -45,22 +44,9 @@ const About = ({ t, isDarkMode, lang }) => {
 
         {/* Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
-          
-          {/* Left Side: Clean Profile Image */}
-          <div className="md:col-span-5">
-            <div className={`rounded-2xl border overflow-hidden p-1 cursor-pointer transform hover:scale-[1.02] active:scale-95 active:border-primary active:ring-4 active:ring-primary/20 transition-all duration-300 ${
-              isDarkMode ? 'border-zinc-800 bg-zinc-900' : 'border-zinc-200 bg-zinc-100'
-            }`}>
-              <img
-                src={aboutImage}
-                alt="Sonn Sokla"
-                className="w-full h-80 sm:h-96 object-cover rounded-xl"
-              />
-            </div>
-          </div>
 
           {/* Right Side: Bio and Simple Grid */}
-          <div className="md:col-span-7 space-y-6">
+          <div className="md:col-span-12 space-y-6">
             <h3 className="text-xl sm:text-2xl font-bold tracking-tight">
               {aboutHeading}
             </h3>

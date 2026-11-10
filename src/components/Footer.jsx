@@ -15,7 +15,7 @@ const Footer = ({ t, isDarkMode, lang }) => {
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/sokcheamoa',
+      url: 'https://github.com/settings/admin',
       // SVG Logo របស់ GitHub ផ្លូវការ
       iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg',
       badgeClass: isDarkMode
@@ -24,7 +24,7 @@ const Footer = ({ t, isDarkMode, lang }) => {
     },
     {
       name: 'Facebook',
-      url: 'https://www.facebook.com/share/1LY2EmEAp7/?mibextid=wwXIfr',
+      url: 'https://www.facebook.com/share/19yHPZF6y1/?mibextid=wwXIfr',
       // SVG ពណ៌ខៀវផ្លូវការរបស់ Facebook
       iconUrl: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/facebook.svg',
       badgeClass: 'text-[#1877F2] bg-[#1877F2]/10 border-[#1877F2]/30 hover:bg-[#1877F2] hover:text-white',

@@ -11,7 +11,6 @@ import BottomNav from './components/BottomNav';
 import About from './sections/About';
 import Skills from './sections/Skills';
 import EducationExperience from './sections/EducationExperience';
-import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 
 // Data
@@ -87,10 +86,6 @@ function App() {
         
         <section id="experience">
           <EducationExperience t={t} isDarkMode={isDarkMode} lang={lang} />
-        </section>
-
-        <section id="projects">
-          <Projects t={t} isDarkMode={isDarkMode} />
         </section>
 
         <section id="contact">

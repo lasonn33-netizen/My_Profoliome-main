@@ -4,13 +4,11 @@ export const en = {
     about: "About",
     skills: "Skills",
     education: "Education",
-    projects: "Projects",
     contact: "Contact"
   },
   
   welcomeTitle: "Frontend & Backend API Developer",
   welcomeSubtitle: "I am a passionate developer dedicated to building modern, responsive web applications, capable of developing both Frontend and Backend APIs powered by Python FastAPI, Laravel, and React.",
-  viewProjects: "View Projects",
   viewCv: "View CV",
   contactMe: "Contact Me",
   about: {
@@ -22,12 +20,6 @@ export const en = {
   skills: {
     title: "My Skills",
     subtitle: "Core technologies, databases, and software tools I use for web development.",
-  },
-  projects: {
-    title: "Featured Projects",
-    subtitle: "Here are some of the projects I've developed recently.",
-    badge: "Sonn Sokla Portfolio",
-    cta: "View Project"
   },
   eduExp: {
     title: "Education & Experience",
