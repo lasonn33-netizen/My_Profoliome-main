@@ -5,24 +5,25 @@ const icons = {
   '#about': <><circle cx="12" cy="8" r="3.5" /><path d="M5.5 20c.7-4 2.9-6 6.5-6s5.8 2 6.5 6" /></>,
   '#skills': <><path d="M8 9 4 12l4 3M16 9l4 3-4 3M14 5l-4 14" /></>,
   '#experience': <><path d="m3 9 9-5 9 5-9 5z" /><path d="M7 12v4c2.8 2.2 7.2 2.2 10 0v-4M21 9v7" /></>,
+  '#projects': <><path d="M3.5 7.5h6l2 2h9v10h-17z" /><path d="M3.5 7.5v-3h7l2 3" /></>,
   '#contact': <><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m4 7 8 6 8-6" /></>,
 };
 
 const fallbackLabels = {
   '#home': 'Home', '#about': 'About', '#skills': 'Skills',
-  '#experience': 'Experience', '#contact': 'Contact',
+  '#experience': 'Experience', '#projects': 'Projects', '#contact': 'Contact',
 };
 
 const shortKhmerLabels = {
   '#home': 'ទំព័រដើម', '#about': 'អំពីខ្ញុំ', '#skills': 'ជំនាញ',
-  '#experience': 'ប្រវត្តិ', '#contact': 'ទំនាក់ទំនង',
+  '#experience': 'ប្រវត្តិ', '#projects': 'គម្រោង', '#contact': 'ទំនាក់ទំនង',
 };
 
 const BottomNav = ({ t, isDarkMode, lang }) => {
   const [active, setActive] = useState('#home');
   const navHrefs = {
     home: '#home', about: '#about', skills: '#skills', 
-    education: '#experience', contact: '#contact',
+    education: '#experience', projects: '#projects', contact: '#contact',
   };
   const links = Array.isArray(t?.nav)
     ? t.nav

@@ -56,6 +56,7 @@ const Home = ({ t, isDarkMode, lang }) => {
     ? "ខ្ញុំគឺជា Developer ដែលមានចំណង់ចំណូលចិត្តក្នុងការបង្កើត Web Applications ទំនើបៗ ដោយអាចសរសេរបានទាំង Frontend និង Backend API រួមមាន Python FastAPI, Laravel និង React ។"
     : (t?.welcomeSubtitle || "Passionate software developer specializing in building modern web applications, scalable Backend APIs with Python FastAPI and Laravel, and interactive frontends with React.");
 
+  const viewProjectsText = isKhmer ? "មើលគម្រោង" : (t?.viewProjects || "View Projects");
   const contactText = isKhmer ? "ទាក់ទងខ្ញុំ" : (t?.contactMe || "Get in Touch");
 
   // Professional Tech Stack with Official Docs URLs
@@ -129,6 +130,13 @@ const Home = ({ t, isDarkMode, lang }) => {
             
             {/* Action Buttons with Spring Click Animation & Primary Activation */}
             <div className="flex flex-wrap justify-center md:justify-start items-center gap-3.5 mb-8">
+              <a
+                href="#projects"
+                className="px-6 py-2.5 rounded-lg text-sm font-semibold text-white bg-primary hover:bg-primary-600 shadow-sm shadow-primary/25 cursor-pointer transform active:scale-95 active:ring-4 active:ring-primary/40 transition-all duration-150 select-none"
+              >
+                {viewProjectsText}
+              </a>
+
               <a
                 href="#contact"
                 className={`px-6 py-2.5 rounded-lg text-sm font-semibold border cursor-pointer transform active:scale-95 active:border-primary active:bg-primary active:text-white active:ring-2 active:ring-primary/30 transition-all duration-150 select-none ${

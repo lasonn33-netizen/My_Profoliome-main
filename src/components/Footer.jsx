@@ -15,7 +15,7 @@ const Footer = ({ t, isDarkMode, lang }) => {
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/settings/admin',
+      url: 'https://github.com/sokcheamoa',
       // SVG Logo របស់ GitHub ផ្លូវការ
       iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg',
       badgeClass: isDarkMode

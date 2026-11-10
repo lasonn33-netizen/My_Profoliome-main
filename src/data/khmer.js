@@ -4,11 +4,13 @@ export const km = {
     about: "អំពីខ្ញុំ",
     skills: "ជំនាញ",
     education: "ការសិក្សា",
+    projects: "គម្រោង",
     contact: "ទំនាក់ទំនង"
   },
   welcomeTitle: "អ្នកអភិវឌ្ឍន៍ Frontend & Backend API",
   welcomeSubtitle: "ខ្ញុំគឺជា Developer ដែលមានចំណង់ចំណូលចិត្តក្នុងការបង្កើត Web Applications ទំនើបៗ ដោយអាចសរសេរបានទាំង Frontend និង Backend API យ៉ាងស្ទាត់ជំនាញ។",
   
+  viewProjects: "មើលគម្រោង",
   viewCv: "មើល CV",
   contactMe: "ទាក់ទងខ្ញុំ",
   about: {
@@ -20,6 +22,12 @@ export const km = {
   skills: {
     title: "ជំនាញរបស់ខ្ញុំ",
     subtitle: "បច្ចេកវិទ្យា និងឧបករណ៍ដែលខ្ញុំប្រើប្រាស់សម្រាប់ការអភិវឌ្ឍន៍គេហទំព័រ។",
+  },
+  projects: {
+    title: "គម្រោងលេចធ្លោ",
+    subtitle: "ខាងក្រោមនេះគឺជាគម្រោងមួយចំនួនដែលខ្ញុំបានអភិវឌ្ឍនាពេលថ្មីៗនេះ។",
+    badge: "Sonn Sokla Portfolio",
+    cta: "មើលគម្រោង"
   },
   eduExp: {
     title: "ការសិក្សា និងបទពិសោធន៍",
